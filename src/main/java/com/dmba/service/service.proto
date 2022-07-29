@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package service;
+
+option java_package = "com.dmba.service";
+
+//import "com/dmba/domain/data.proto";
+
+//
+//service LibraryService {
+//  rpc AddBook(domain.UsersOrder) returns (AddBookResponse);
+//}
+//
+message AddBookResponse {
+  int64 id = 1;
+}
